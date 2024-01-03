@@ -1,0 +1,29 @@
+.Burger__window {
+    width: 366px;
+    height: 1000px;
+    background: rgba(34, 38, 15, 0.97);
+    position: absolute;
+    z-index: 40;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    display: none; 
+}
+
+.Burger__cross {
+    margin-left: 50%;
+    margin-top: 10%;
+    transform: translate(-50%, -50%);
+    width: 2rem;
+    margin-bottom: 6rem;
+}
+
+
+.Burger__window.open {
+    display: block; /* при добавлении класса .open, окно станет видимым */
+}
+
+
+
+  
+  

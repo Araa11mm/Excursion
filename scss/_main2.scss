@@ -1,0 +1,493 @@
+.backgroundWhite {
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+// video
+
+.h2 {
+
+    &__font {
+        color: #282C11;
+        font-family: "Gilroy";
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 89px;
+        padding-bottom: 84px;
+    }
+
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    height: 688px;
+}
+
+.poster {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    }
+
+
+// trace part of the main site
+.basic {
+
+    &__flex {
+        display: flex;
+        margin-top: 167px;
+        justify-content: space-between;
+    }
+}
+
+.picture {
+    background-image: url(../img/main2/picture.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 655.998px;;
+    height: 661px;
+    margin-top: -5%;
+    
+}
+.cards {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    
+
+    &__card1 {
+        width: 289px;
+        height: 260px;
+        background: #7B9635;
+        padding: 22px;
+    }
+
+    // .cards__people
+
+    &__people {
+        background-image: url(../img/main2/people.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 42px;;
+        height: 65px;
+        
+    }
+
+    &__dollar {
+        background-image: url(../img/main2/dollar.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 65px;;
+        height: 65px;
+        
+    }
+
+    &__time {
+        background-image: url(../img/main2/time.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 60px;;
+        height: 60px;
+        
+    }
+
+    &__thumbsUp {
+        background-image: url(../img/main2/thumbs\ up2.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 60px;;
+        height: 60px;
+        
+    }
+
+
+    &__h2 {
+        color: #FFF;
+        font-family: "Gilroy";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 16px;
+    }
+
+
+    &__p {
+        color: #FFF;
+        font-family: "Gilroy";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 9px;
+    }
+
+
+    &__card2 {
+        width: 289px;
+        height: 260px;
+        // width: 249px;
+        // height: 224px;
+        background: #7B9635;
+        padding: 22px;
+    }
+}
+
+// trace part of the main site
+.descriptionтGuides {
+
+    
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    &__h2 {
+        color: #282C11;
+        font-family: "Gilroy";
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 196px;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 109px;
+    }
+}
+.arrow {
+
+    &__flex {
+        display: flex;
+        column-gap: 39px;
+        padding-top: 230px;
+    }
+}
+
+
+
+
+// Slider
+
+.swiper {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    
+}
+
+
+.swiper-wrapper {
+    display: flex;
+}
+
+.swiper-slider {
+    display: flex;
+}
+
+.swiper-button-prev {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.swiper-p {
+    text-align: center;
+    color: #282C11;
+    font-family: "Gilroy";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: -30px;
+    padding-top: 25px;
+    
+}
+
+.swiper-p2 {
+    text-align: center;
+    color: #282C11;
+    font-family: "Gilroy";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: -23px;
+    
+}
+
+
+
+
+
+.swiper {
+
+		// .swiper__surname1
+
+		&__surname1 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -30px;
+            padding-top: 25px;
+		}
+
+		// .swiper__surnameP1
+
+		&__surnameP1 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -30px;
+		}
+
+		// .swiper__surname2
+
+		&__surname2 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -25px;
+            padding-top: 25px;
+		}
+
+		// .swiper__surnameP2
+
+		&__surnameP2 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -25px;
+		}
+
+		// .swiper__surname3
+
+		&__surname3 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -25px;
+            padding-top: 25px;
+		}
+
+		// .swiper__surnameP3
+
+		&__surnameP3 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -25px;
+		}
+
+		// .swiper__surname4
+
+		&__surname4 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -25px;
+            padding-top: 25px;
+		}
+
+		// .swiper__surnameP4
+
+		&__surnameP4 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -30px;
+		}
+
+        &__surname5 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -25px;
+            padding-top: 25px;
+		}
+
+		&__surnameP5 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -30px;
+		}
+
+        &__surname6 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -25px;
+            padding-top: 25px;
+		}
+
+		&__surnameP6 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -30px;
+		}
+
+        &__surname7 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -25px;
+            padding-top: 25px;
+		}
+
+		&__surnameP7 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -30px;
+		}
+
+        &__surname8 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -25px;
+            padding-top: 25px;
+		}
+
+		&__surnameP8 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -30px;
+		}
+
+        &__surname9 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -25px;
+            padding-top: 25px;
+		}
+
+		&__surnameP9 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -30px;
+		}
+
+        &__surname10 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -25px;
+            padding-top: 25px;
+		}
+
+		&__surnameP10 {
+            text-align: center;
+            color: #282C11;
+            font-family: "Gilroy";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -30px;
+		}
+}
+
+
+
+
+

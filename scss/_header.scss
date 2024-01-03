@@ -1,0 +1,215 @@
+.header {
+background-image: url(../img/header/headerPhoto.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 950px;
+
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 22px;
+    }
+
+    &__logo {
+        width: 12%;
+    }
+
+    &__menu {
+        display: flex;
+        column-gap: 40px;
+        align-items: center;
+
+        &_stil {
+            color: #FFF;
+            font-family: "Inter";
+            font-size: 13.5px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            a {
+                color: #FFF;
+                position: relative;
+        
+                &::after {
+                    content: "";
+                    width: 100%;
+                    height: 2px;
+                    background-color: #ffffff;
+                    position: absolute;
+                    top: 20px;
+                    left: 0;
+                    opacity: 0;
+                    transition: opacity .1s ease;
+                }
+        
+                &:hover::after { 
+                    opacity: 1;
+                }
+            }  
+        }
+    }
+
+    &__contact {
+
+        &_stil {
+        color: #FFF;
+        font-family: "Inter";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+            a {
+            color: #FFF;
+            }
+        }
+
+        &_stil2 {
+            color: #FFF;
+            font-family: "Inter";
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+    
+            a {
+                color: #FFF;
+                position: relative;
+
+                &::after {
+                    content: "";
+                    width: 100%;
+                    height: 2px;
+                    background-color: #ffffff;
+                    position: absolute;
+                    top: 17px;
+                    left: 0;
+                }
+            }
+        }
+    }
+
+
+    &__burger {
+        display: none;
+        margin-top: 5px;
+        
+    }
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.description {
+
+    &__h2 {
+        padding-top: 111px;
+        color: #FFF;
+        font-family: 'Gilroy';
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        &_stil {
+            color: #FFF;
+            font-family: 'Gilroy';
+            font-size: 54px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 1.26px;
+
+
+        }
+    }
+
+
+    &__p {
+        color: #FFF;
+        font-family: 'Gilroy';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.42px;
+        padding-top: 15px;
+        line-height: 142.5%;
+    }
+
+
+    &__button {
+        width: 195px;
+        height: 49px;
+        background: #FCC91D;
+        border-radius: 30px;
+        margin-top: 52px;
+        transition: background-color .4s;
+
+        &:hover {
+            background-color: #f7e62f;
+        }  
+
+        &_p {
+            text-align: center;
+            color: #231F07;
+            font-family: 'Gilroy';
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            align-items: center;
+            
+        }
+    }
+}
+
+.descrIcon {
+
+    &__flex {
+        display: flex;
+        column-gap: 50px;
+        padding-top: 180px;
+    }
+
+
+    &__block1 {
+
+
+        &_flex {
+        display: flex;
+        align-items: center;
+        }
+
+        &_icon {
+        }
+
+        &_stil {
+            color: #FFF;
+            font-family: 'Gilroy';
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            padding-left: 20px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

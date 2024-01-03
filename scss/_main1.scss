@@ -1,0 +1,349 @@
+.background {
+    background: #22260F;
+    width: 100%;
+    height: 960px;
+    margin-top: -1px;
+}
+.descriptionSec {
+
+        
+
+		&__font {
+            color: #FFF;
+            font-family: "Gilroy";
+            font-size: 54px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding-top: 30px;
+		}
+
+		// .descriptionSec__flex
+
+		&__flex {
+            display: flex;
+            column-gap: 45px;
+            padding-top: 50px;
+
+			&_font {
+                color: #FFF;
+                font-family: "Gilroy";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                cursor: pointer;
+                position: relative;
+
+                a {
+                    color: #FFF;
+                    padding-bottom: 13px;
+                }
+
+                &::after {
+                    content: "";
+                    width: 100%;
+                    height: 2.5px;
+                    background: #FCC91D;
+                    position: absolute;
+                    top: 32.6px;
+                    opacity: 0;
+                    left: 0;
+                    cursor: pointer;
+                }
+
+                &:hover::after {
+                    opacity: 1;
+                }
+
+                &.active::after {
+                    opacity: 1;
+                }
+
+
+			}
+		}
+}
+
+.line {
+width: 100%;
+height: 2.5px;
+background: #616161;
+margin-top: 13px;
+}
+
+.line2 {
+    display: none;
+    width: 100%;
+    height: 2.5px;
+    background: #616161;
+    margin-top: 13px;
+    }
+
+.tab {
+
+    &__content {
+        display: none;
+
+        &.active {
+            display: block;
+        }
+    }
+}
+
+.content {
+
+    &__flex {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15px;
+    margin-top: 50px;
+    }
+
+    &__block {
+
+        max-width: 452px;
+
+        &_photo1 {
+        background-image: url(../img/main/photo1.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 316px;
+        }
+
+        &_photo2 {
+        background-image: url(../img/main/photo2.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 316px;
+        }
+
+        &_photo3 {
+        background-image: url(../img/main/photo3.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 316px;
+        }
+
+        &_photo4 {
+        background-image: url(../img/main/photo4.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 316px;
+        }
+
+        &_photo5 {
+        background-image: url(../img/main/photo5.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 316px;
+        }
+
+        &_photo6 {
+        background-image: url(../img/main/photo6.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 316px;
+        }
+
+        &_photo7 {
+        background-image: url(../img/main/photo7.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 316px;
+        }
+
+        &_photo8 {
+        background-image: url(../img/main/photo8.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 316px;
+        }
+
+        &_photo9 {
+        background-image: url(../img/main/photo9.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 316px;
+        }
+
+        &_photo10 {
+        background-image: url(../img/main/photo10.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 316px;
+        }
+
+        &_photo11 {
+        background-image: url(../img/main/photo11.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 316px;
+        }
+
+        &_photo12 {
+        background-image: url(../img/main/photo12.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 316px;
+        }
+
+        &_photo13 {
+        background-image: url(../img/main/photo13.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 316px;
+        }
+
+        &_photo14 {
+        background-image: url(../img/main/photo14.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 316px;
+        }
+
+        &_photo15 {
+        background-image: url(../img/main/photo15.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 316px;
+        }
+
+        // .content__block_h2
+
+        &_h2 {
+            color: #FFF;
+            font-family: "Gilroy";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            padding-top: 25px;
+            padding-bottom: 13px;
+        }
+
+        // .content__block_p
+
+        &_p {
+            color: #FFF;
+            font-family: "Gilroy";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            width: 100%;
+            padding-bottom: 13px;
+        }
+
+        // .content__block_p1
+
+        &_p1 {
+            color: #A6B89F;
+            font-family: "Gilroy";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            width: 100%;
+            padding-bottom: 13px;
+        }
+
+        // .content__block_p2
+
+        &_p2 {
+            color: #FFF;
+            font-family: "Gilroy";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            width: 100%;
+            padding-bottom: 30px;
+        }
+    }
+
+
+    &__button {
+        width: 139px;
+        height: 40.065px;
+        border-radius: 30px;
+        background: #FCC91D; 
+        transition: background-color .1s ;
+
+        &:hover {
+            background-color: #f7e62f;
+        }
+
+        &_p {
+            color: #000;
+            font-family: "Gilroy";
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-align: center;
+        }
+    }
+}
+
+.p2Top {
+    padding-bottom: 49px;
+}
+
+
+
+.MobileTop2 {
+    padding-bottom: 47px;
+}
+
+// SLIDER
+
+.mobileNone {
+    display: none;
+}
+
+.swiperBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+    position: relative;
+}
+
+.swiperbutton {
+    display: flex;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.swiper-slide.sw-flex {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.swiper-slide.sw-flex1 {
+    display: flex;
+    justify-content: center;
+    column-gap: 5.5rem;
+}
+
+// .descriptionSec__flex_font a {
+//     font-size: 19px;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
